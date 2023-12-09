@@ -1,0 +1,26 @@
+# PIPELINE DEFINITION
+# Name: data-processor-pipeline
+components:
+  comp-data-processor:
+    executorLabel: exec-data-processor
+deploymentSpec:
+  executors:
+    exec-data-processor:
+      container:
+        args:
+        - cli.py
+        image: amelialwx/preprocess-image
+pipelineInfo:
+  name: data-processor-pipeline
+root:
+  dag:
+    tasks:
+      data-processor:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-processor
+        taskInfo:
+          name: data-processor
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.3.0

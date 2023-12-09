@@ -1,0 +1,11 @@
+md5: e6406ee17b5e5c8100d5285a730ce912
+frozen: true
+deps:
+- md5: 049d1396d01e083252aebabf37ede5d6.dir
+  size: 1039977095
+  nfiles: 4
+  hash: md5
+  path: gs://platepals_data/preprocessed_data
+outs:
+- hash: md5
+  path: preprocessed_data

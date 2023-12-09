@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.13.0"
+google-cloud-storage = ">=1.42.0"
+pillow = ">=8.3.1"
+tensorflow-datasets = "==4.7.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
