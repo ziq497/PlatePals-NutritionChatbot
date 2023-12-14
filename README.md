@@ -5,7 +5,7 @@ AC215 - PlatePals
 [Link](https://drive.google.com/file/d/1nzmvpYT076aG2-Ogm73XQBraR0olj4Ex/view?usp=sharing)
 
 ### Blog Post Link ###
-[Link]()
+[Link](https://amelialwx.medium.com/platepals-revolutionizing-nutritional-awareness-with-ai-5b4cc45d5d44)
 
 Project Organization
 ------------
